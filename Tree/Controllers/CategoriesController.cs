@@ -78,9 +78,7 @@ namespace Tree.Controllers
 		public ActionResult Create()
 		{
 			var viewModel = new CreateCategoryViewModel();
-
 			viewModel.CategorySelectItems = getCategorySelectItems();
-
 			return View(viewModel);
 		}
 
@@ -171,10 +169,8 @@ namespace Tree.Controllers
 					db.SaveChanges();
 				}
 
-
 				return RedirectToAction("Index");
 			}
-
 			return View(category);
 		}
 

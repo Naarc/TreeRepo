@@ -12,19 +12,13 @@ namespace Tree.Models
 		public ApplicationDbContext()
 			: base("DefaultConnection", throwIfV1Schema: false)
 		{
-		}
-		
-		
+		}		
 		public DbSet<Category> Categories { get; set; }
-		
-		
 
 		internal IEnumerable<T> ExecuteQuery<T>(string v)
 		{
 			throw new NotImplementedException();
 		}
-
-		
 
 		public static ApplicationDbContext Create()
 		{
