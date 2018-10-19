@@ -1,0 +1,71 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+ul.categories-tree {
+	
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0px;
+    padding: 0;
+}
+ul.categories-tree li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #ddd;
+	display: block;
+	overflow: hidden;
+	height: 1%;
+	
+}
+
+ul.categories-tree li ul {
+	margin: 0px;
+	padding: 0px;
+}
+ul.categories-tree li ul li {
+	
+}
+ul.categories-tree li span.category-name {
+	display: block;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+ul.categories-tree li span:hover {
+	background: #F5F5F5;
+}
+ul.categories-tree li .btn-xs {
+	float: right;
+	margin-right: 10px;
+	margin-top: 6px;
+}
+.category-icon {
+	padding: 5px;
+}
+span.category-name {
+	display: none;
+}
+
+
+
